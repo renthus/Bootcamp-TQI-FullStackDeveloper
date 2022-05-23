@@ -12,6 +12,9 @@ body {
     max-height:200px;
     width: auto;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #title, .subtitle, .post_title {
@@ -22,6 +25,7 @@ font
 #title {
     font-size: 20px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 a {
