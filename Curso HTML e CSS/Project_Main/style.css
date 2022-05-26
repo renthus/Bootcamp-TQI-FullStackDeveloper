@@ -242,11 +242,21 @@ a:hover {
     transition: 0.3s;
 }
 
+.card-text p {
+    width: 100%;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    color: black;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+}
 .card-text {
     width: 40%;
     font-family: sans-serif;
     letter-spacing: 1px;
     color: black;
+    text-align: justify;
 }
 
 .card-wrapper {
@@ -297,7 +307,7 @@ a:hover {
 }
 
 .card:hover > .card-wrapper p {
-    font-size: 14px;
+    font-size: 20px;
     opacity: 1;
     visibility: visible;
 }
@@ -339,7 +349,7 @@ a:hover {
     .card-text {
         width: 90%;
         margin-top: 2rem;
-        text-align: center;
+        text-align: justify;
     }
     .card:hover > .card-wrapper::before {
         height: 190px;
